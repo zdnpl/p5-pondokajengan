@@ -1,0 +1,186 @@
+/* font buat p */
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
+
+/* pilihan rakuy */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+/* pilihan cinta */
+@import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap");
+
+/* pilihan cinta 2 */
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&display=swap");
+
+/* font nailah yes */
+@import url('https://fonts.googleapis.com/css2?family=Trochut&display=swap');
+
+body {
+  background-color: #680001;
+  color: #ffc8cc;
+  font-family: 'Trochut', sans-serif;
+}
+
+.bg-body {
+  padding: auto;
+  background-image: url(/img/gardu.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.line-wayang {
+  background-image: url(/img/line\ bali.png);
+  user-select: none;
+  width: 100%;
+  background-repeat: repeat-x;
+  height: 100;
+}
+
+p,
+a {
+  font-family: "ABeeZee", sans-serif;
+}
+
+a {
+  color: #ffc8cc;
+}
+
+.navbar {
+  background-color: #680001;
+  color: #ffc8cc;
+  font-size: 18px;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.img-brand {
+  border-radius: 50%;
+}
+
+.nav-item:hover,
+.nav-link:hover {
+  background-color: #333333;
+  color: #680001;
+}
+
+.PONJENGAN {
+  font-size: 70px;
+}
+
+.judul {
+  margin-top: 15%;
+}
+
+.judul-text {
+  font-size: 30px;
+}
+
+.sub-sub-judul {
+  margin-bottom: 30px;
+  font-family: "Castoro Titling", cursive;
+}
+
+.logo-ig {
+  margin-right: 10px;
+}
+
+.kanan img {
+  border-radius: 50%;
+}
+
+.pembatas {
+  margin-top: 100px;
+  background-color: #0000;
+  padding: auto;
+  padding-bottom: 100px;
+}
+
+.sub-judul {
+  font-family: "Source Serif Pro", serif;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.ad-section {
+  margin-top: 100px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.musik {
+  width: 50px;
+  background-color: #0000;
+  position: absolute;
+}
+
+.contact-section {
+  color: #314528;
+  background-color: #f4f4f4;
+  height: 300px;
+}
+
+.list-contact {
+  padding: 10px 0px;
+  width: 200px;
+}
+
+.info-contact {
+  padding-left: 10px;
+}
+
+.column-contact {
+  margin-top: 60px;
+}
+
+.btn-contact {
+  height: 40px;
+  width: 180px;
+  padding-left: 20px;
+  border: 2px solid #314528;
+  outline: none;
+}
+
+.btn-contact:hover {
+  background-color: #314528;
+  color: #fff;
+}
+
+.footer {
+  margin-top: 40px;
+}
+
+.love {
+  color: red;
+}
+
+.card-body {
+  min-height: 200px;
+  max-height: 200px;
+}
+
+/* responsive */
+@media only screen and (max-width: 600px) {
+  .judul {
+    margin-top: 50%;
+  }
+  .logo-kanan {
+    display: none;
+  }
+  .pembatas {
+    margin-top: 10px;
+  }
+  .foods-isi {
+    margin-left: 8%;
+  }
+  .contact-section {
+    height: 450px;
+  }
+  .line-wayang {
+    display: none;
+  }
+}
